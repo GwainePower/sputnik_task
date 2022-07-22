@@ -1,16 +1,12 @@
-# onboading_task
+# sputnik_task
 
-A new Flutter project.
+A mini project with english/russian translation.
 
-## Getting Started
+## Project overall info:
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project was made using Flutter;
+State management: Riverpod;
+Http request handling: Dio;
+Onboarding screen: card_swiper;
+Saved first launch state with Shared Preferences.
+Translations made with l10n
