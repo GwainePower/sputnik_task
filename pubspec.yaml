@@ -1,0 +1,50 @@
+name: onboading_task
+description: A Flutter mini-project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  card_swiper: ^2.0.4
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^1.0.4
+  flutter_svg: ^1.1.1+1
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Assets & Fonts
+  assets:
+    - assets/images/logo.svg
+    - assets/images/onboard_first.svg
+    - assets/images/onboard_second.svg
+    - assets/images/onboard_third.svg
+    - assets/icons/heart.svg
+    - assets/icons/medal.svg
+    - assets/icons/dollar.svg
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
