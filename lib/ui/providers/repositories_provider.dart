@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:onboading_task/data/api/github_repository_repo.dart';
-import 'package:onboading_task/domain/models/github_repo.dart';
+
+import '../../data/api/github_repository_repo.dart';
+import '../../domain/models/github_repo.dart';
 
 final _repositoriesRepo =
     Provider<GithubRepositoryRepo>((ref) => GithubRepositoryRepo());

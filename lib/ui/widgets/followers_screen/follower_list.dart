@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:onboading_task/ui/providers/followers_provider.dart';
-import 'package:onboading_task/ui/widgets/followers_screen/follower_list_tile.dart';
+
+import '../../providers/followers_provider.dart';
+import 'follower_list_tile.dart';
 
 import '../loading_widget.dart';
 

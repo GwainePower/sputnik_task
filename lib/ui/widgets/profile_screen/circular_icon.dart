@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:onboading_task/constants/colors.dart';
+import '../../../constants/colors.dart';
 
 class CircularIcon extends StatelessWidget {
   final IconData icon;

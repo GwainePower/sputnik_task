@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:onboading_task/ui/widgets/loading_widget.dart';
-import 'package:onboading_task/ui/widgets/search_screen/search_error.dart';
+
+import '../widgets/loading_widget.dart';
+import '../widgets/search_screen/search_error.dart';
 
 import '../navigation/main_navigation.dart';
 import '../providers/user_provider.dart';

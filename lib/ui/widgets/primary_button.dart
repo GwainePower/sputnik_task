@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:onboading_task/constants/strings.dart';
 
+import '../../constants/strings.dart';
 import '../../constants/colors.dart';
 
 class PrimaryButton extends StatelessWidget {

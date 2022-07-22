@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:onboading_task/constants/colors.dart';
+import 'package:sputnik_task/constants/colors.dart';
 
-import 'package:onboading_task/domain/models/github_repo.dart';
-import 'package:onboading_task/ui/widgets/home_screen/icon_info.dart';
+import '../../../domain/models/github_repo.dart';
+import 'icon_info.dart';
 
 class RepositoryItem extends StatelessWidget {
   final GithubRepo repository;

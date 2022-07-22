@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:onboading_task/domain/models/github_user.dart';
+import '../../../domain/models/github_user.dart';
 
 class UserInfoItem extends StatelessWidget {
   final GithubUser user;

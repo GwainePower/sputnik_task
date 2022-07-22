@@ -1,5 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:onboading_task/data/api/github_users_repo.dart';
+
+import '../../data/api/github_users_repo.dart';
 
 import '../../domain/models/github_user.dart';
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:onboading_task/ui/widgets/home_screen/followers_list.dart';
-import 'package:onboading_task/ui/widgets/home_screen/repositories_list.dart';
+
+import '../widgets/home_screen/followers_list.dart';
+import '../widgets/home_screen/repositories_list.dart';
 
 import '../widgets/home_screen/user_main_info.dart';
 
